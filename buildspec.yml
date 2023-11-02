@@ -17,7 +17,7 @@ phases:
       - echo Building the application
       - python3 -m venv venv
       - source venv/bin/activate
-      - screen -d -m python3 manage.py runserver 0:8000 
+      - python3 manage.py runserver
   post_build: 
     commands: 
       - echo Build completed on `date`
