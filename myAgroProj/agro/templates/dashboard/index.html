@@ -1,0 +1,10 @@
+<h1>Newest Movies<h1>
+    {% if newest_product %}
+    <ul>
+    {% for product in newest_product %}
+    <li><a href="/agro/{{ product.id }}/">{{ product.title }}</a></li>
+    {% endfor %}
+    </ul>
+    {% else %}
+    <p>There are no movies recorded.</p>
+    {% endif %}
