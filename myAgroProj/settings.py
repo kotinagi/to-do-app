@@ -25,7 +25,7 @@ SECRET_KEY = '^t-&b4^-0u1s7+5qgo!rfn10g$5)jcg67xv-okkb#gabyu%y$w'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['http://agro.eu-west-2.elasticbeanstalk.com/']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
